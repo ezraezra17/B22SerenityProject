@@ -38,7 +38,7 @@
             <artifactId>serenity-junit5</artifactId>
             <version>1.6.0</version>
         </dependency>
-
+<!--TO GET SOME LOGS WE ADD THİS LİKE TEST STARTED-->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
@@ -50,6 +50,9 @@
             <artifactId>javafaker</artifactId>
             <version>1.0.2</version>
         </dependency>
+
+
+
     </dependencies>
 
     <build>
