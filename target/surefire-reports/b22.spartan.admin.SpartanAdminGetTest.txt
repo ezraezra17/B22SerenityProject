@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: b22.spartan.admin.SpartanAdminGetTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.537 s - in b22.spartan.admin.SpartanAdminGetTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 26.502 s - in b22.spartan.admin.SpartanAdminGetTest
