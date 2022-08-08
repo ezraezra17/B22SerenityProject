@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="b22.spartan.editor.SpartanEditorPostTest" skipped="0" tests="11" time="17.94" timestamp="2022-08-08 01:33:44"><testcase classname="b22.spartan.editor.SpartanEditorPostTest" name="Editor should be able to Post"/><testcase classname="b22.spartan.editor.SpartanEditorPostTest" name="New Spartan1-name"/><testcase classname="b22.spartan.editor.SpartanEditorPostTest" name="New Spartan2-name"/><testcase classname="b22.spartan.editor.SpartanEditorPostTest" name="New Spartan3-name"/><testcase classname="b22.spartan.editor.SpartanEditorPostTest" name="New Spartan4-name"/><testcase classname="b22.spartan.editor.SpartanEditorPostTest" name="New Spartan5-name"/><testcase classname="b22.spartan.editor.SpartanEditorPostTest" name="New Spartan6-name"/><testcase classname="b22.spartan.editor.SpartanEditorPostTest" name="New Spartan7-name"/><testcase classname="b22.spartan.editor.SpartanEditorPostTest" name="New Spartan8-name"/><testcase classname="b22.spartan.editor.SpartanEditorPostTest" name="New Spartan9-name"><failure message="1 expectation failed.&#10;JSON path data.phone doesn't match.&#10;Expected: is &lt;1233907382L&gt;&#10;  Actual: &lt;1233907382&gt;&#10;" type="java.lang.AssertionError">1 expectation failed.
+JSON path data.phone doesn't match.
+Expected: is &lt;1233907382L&gt;
+  Actual: &lt;1233907382&gt;
+</failure><system-err>1 expectation failed.
+JSON path data.phone doesn't match.
+Expected: is &lt;1233907382L&gt;
+  Actual: &lt;1233907382&gt;
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)&#13;
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)&#13;
+io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)&#13;
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)&#13;
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)&#13;
+io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)&#13;
+io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)&#13;
+b22.spartan.editor.SpartanEditorPostTest.lambda$postSpartanWithCSV$13(SpartanEditorPostTest.java:131)&#13;
+net.serenitybdd.rest.Ensure.performCheck(Ensure.java:35)&#13;
+net.serenitybdd.rest.Ensure.that(Ensure.java:23)&#13;
+b22.spartan.editor.SpartanEditorPostTest.postSpartanWithCSV(SpartanEditorPostTest.java:131)&#13;
+</system-err></testcase><testcase classname="b22.spartan.editor.SpartanEditorPostTest" name="New Spartan10-name"/></testsuite>
