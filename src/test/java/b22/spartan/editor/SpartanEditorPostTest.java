@@ -4,6 +4,7 @@ import io.restassured.http.ContentType;
 import net.serenitybdd.junit5.SerenityTest;
 import net.serenitybdd.rest.Ensure;
 import org.checkerframework.checker.units.qual.C;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -17,7 +18,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
-
+@Disabled
 @SerenityTest
 public class SpartanEditorPostTest extends SpartanNewBase {
 //when we need deseriliaxze or seriliaze, you dont need to add seperate dependecny

@@ -7,7 +7,7 @@ public class ConfigDemoTest {
 
     @Test
     public void test1(){
-        ConfigReader.getProperty("spartan.editor.username");
-        ConfigReader.getProperty("spartan.editor.password");
+        System.out.println(ConfigReader.getProperty("serenity.project.name"));
+        System.out.println(ConfigReader.getProperty("serenity.test.root"));
     }
 }
